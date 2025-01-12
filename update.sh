@@ -458,7 +458,7 @@ main() {
     clean_up
     reset_feeds_conf
     update_feeds
-    remove_unwanted_packages
+    #remove_unwanted_packages
     fix_default_set
     fix_miniupmpd
     update_golang
@@ -466,7 +466,7 @@ main() {
     chk_fullconenat
     fix_mk_def_depends
     add_wifi_default_set
-    update_default_lan_addr
+    #update_default_lan_addr
     remove_something_nss_kmod
     remove_affinity_script
     fix_build_for_openssl
